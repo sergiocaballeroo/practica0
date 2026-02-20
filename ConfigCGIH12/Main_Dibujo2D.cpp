@@ -122,8 +122,8 @@ int main() {
 		//modifica el tamaño del punto
 
 		//Ejercicio 1 -> punto en otro lado
-        //glPointSize(10);
-        //glDrawArrays(GL_POINTS,1,1);
+        glPointSize(10);
+        glDrawArrays(GL_POINTS,1,1);
 
 		//Ejercicio 2 - 4 puntos
 		//glPointSize(10);
@@ -139,8 +139,8 @@ int main() {
 
 		
 		//Ejercicio 5 
-		glDrawArrays(GL_TRIANGLES,0,3);
-		glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT,0);
+		//glDrawArrays(GL_TRIANGLES,0,3);
+		//glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT,0);
 
 		
 		//glDrawArrays(GL_LINE_LOOP,0,4);
