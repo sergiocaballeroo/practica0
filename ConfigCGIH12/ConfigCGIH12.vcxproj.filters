@@ -24,9 +24,15 @@
     <None Include="Shader\core.vs">
       <Filter>Archivos de origen\Shared</Filter>
     </None>
+    <None Include="Shader\lamp.frag">
+      <Filter>Archivos de origen\Shared</Filter>
+    </None>
+    <None Include="Shader\lamp.vs">
+      <Filter>Archivos de origen\Shared</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Modelado_Jerarquico.cpp">
+    <ClCompile Include="Texturizado.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
